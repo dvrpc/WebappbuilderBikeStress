@@ -1,0 +1,11 @@
+{
+  "measurement": {
+    "defaultAreaUnit": "esriAcres",
+    "defaultLengthUnit": "esriMiles"
+  },
+  "showArea": false,
+  "showDistance": true,
+  "showLocation": false,
+  "defaultAreaUnit": "esriSquareMiles",
+  "defaultLengthUnit": "esriMiles"
+}

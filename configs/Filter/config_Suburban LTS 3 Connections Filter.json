@@ -1,0 +1,155 @@
+{
+  "collapse": false,
+  "filters": [
+    {
+      "layerId": "BSTRESS_SuburbanLTS123_9836_0",
+      "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_SuburbanLTS123/MapServer/0",
+      "name": "Suburban LTS 3 Connections Top 10 Percent",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "TOP10PERCE",
+              "label": "TOP10PERCE",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": 1
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "expr": "TOP10PERCE = 1"
+          }
+        ],
+        "expr": "TOP10PERCE = 1"
+      },
+      "icon": "",
+      "enableMapFilter": true
+    },
+    {
+      "layerId": "BSTRESS_SuburbanLTS123_9836_0",
+      "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_SuburbanLTS123/MapServer/0",
+      "name": "Suburban LTS 3 Connections Top 20 Percent",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "TOP20PERCE",
+              "label": "TOP20PERCE",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": 1
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "expr": "TOP20PERCE = 1"
+          }
+        ],
+        "expr": "TOP20PERCE = 1"
+      },
+      "icon": "",
+      "enableMapFilter": true
+    },
+    {
+      "layerId": "BSTRESS_SuburbanLTS123_9836_0",
+      "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_SuburbanLTS123/MapServer/0",
+      "name": "Suburban LTS 3 Connections Top 30 Percent",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "TOP30PERCE",
+              "label": "TOP30PERCE",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": 1
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "expr": "TOP30PERCE = 1"
+          }
+        ],
+        "expr": "TOP30PERCE = 1"
+      },
+      "icon": "",
+      "enableMapFilter": true
+    },
+    {
+      "layerId": "BSTRESS_SuburbanLTS123_9836_0",
+      "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_SuburbanLTS123/MapServer/0",
+      "name": "Suburban LTS 3 Connections Top 40 Percent",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "TOP40PERCE",
+              "label": "TOP40PERCE",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": 1
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "expr": "TOP40PERCE = 1"
+          }
+        ],
+        "expr": "TOP40PERCE = 1"
+      },
+      "icon": "",
+      "enableMapFilter": true
+    },
+    {
+      "layerId": "BSTRESS_SuburbanLTS123_9836_0",
+      "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_SuburbanLTS123/MapServer/0",
+      "name": "Suburban LTS 3 Connections Top 50 Percent",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "TOP50PERCE",
+              "label": "TOP50PERCE",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": 1
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "expr": "TOP50PERCE = 1"
+          }
+        ],
+        "expr": "TOP50PERCE = 1"
+      },
+      "icon": "",
+      "enableMapFilter": true
+    }
+  ]
+}

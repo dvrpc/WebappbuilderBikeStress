@@ -1,0 +1,70 @@
+{
+  "showLegend": true,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": false,
+    "EnableOrDisablePopup": false,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "BSTRESS_RegPrioritiesSuburban_5292": {
+      "display": true
+    },
+    "BSTRESS_RegPrioritiesSuburban_5292_0": {
+      "display": true
+    },
+    "BSTRESS_SuburbanLTS123_9836": {
+      "display": true
+    },
+    "BSTRESS_SuburbanLTS123_9836_0": {
+      "display": true
+    },
+    "BSTRESS_SuburbanShortestPath_5965": {
+      "display": true
+    },
+    "BSTRESS_SuburbanShortestPath_5965_0": {
+      "display": true
+    },
+    "BSTRESS_RegionalPrioritiesPhila_9609": {
+      "display": true
+    },
+    "BSTRESS_RegionalPrioritiesPhila_9609_0": {
+      "display": true
+    },
+    "BSTRESS_PhilaLTS3_1534": {
+      "display": true
+    },
+    "BSTRESS_PhilaLTS3_1534_0": {
+      "display": true
+    },
+    "BSTRESS_PhilaShortestPath_9898": {
+      "display": true
+    },
+    "BSTRESS_PhilaShortestPath_9898_0": {
+      "display": true
+    },
+    "BSTRESS_LTS12Islands_9884": {
+      "display": true
+    },
+    "BSTRESS_LTS12Islands_9884_0": {
+      "display": true
+    },
+    "AssignedLTS_8172": {
+      "display": true
+    },
+    "AssignedLTS_8172_0": {
+      "display": true
+    },
+    "AssignedLTS_8172_1": {
+      "display": true
+    },
+    "BSTRESS_PavedShoulders_7350": {
+      "display": true
+    },
+    "BSTRESS_PavedShoulders_7350_0": {
+      "display": true
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "serviceURL": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+  "defaultTitle": "DVRPC Bicycle Level of Stress",
+  "defaultAuthor": "DVRPC",
+  "defaultCopyright": "DVRPC, 2017",
+  "defaultFormat": "PDF",
+  "defaultLayout": "Letter ANSI A Landscape"
+}
