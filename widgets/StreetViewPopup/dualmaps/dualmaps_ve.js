@@ -80,7 +80,7 @@ function getParams() {
     if (markerImage) {
         if (markerImage.length == 1) {
             var l = parseInt(markerImage);
-            var c = "http://maps.google.com/mapfiles/ms/micons/";
+            var c = "https://maps.google.com/mapfiles/ms/micons/";
             switch (l) {
                 case 2:
                     c += "green-dot.png";
@@ -98,7 +98,7 @@ function getParams() {
             markerImage = c;
         }
     } else {
-        markerImage = "http://maps.google.com/mapfiles/ms/micons/red-dot.png";
+        markerImage = "https://maps.google.com/mapfiles/ms/micons/red-dot.png";
     }
 };
 
@@ -172,7 +172,7 @@ function setVEStreetPos(y, x, heading, visible) {
         if (!pegmanMarker) {
             pegmanMarker = new VEShape(VEShapeType.Pushpin, new VELatLong(y, x));
             var icon = new VECustomIconSpecification();
-            icon.Image = "http://maps.gstatic.com/mapfiles/cb/man_arrow-0.png";
+            icon.Image = "https://maps.gstatic.com/mapfiles/cb/man_arrow-0.png";
             icon.ImageOffset = new VEPixel(16, 16);
             pegmanMarker.SetCustomIcon(icon);
             map.AddShape(pegmanMarker);
@@ -246,7 +246,7 @@ function resizePage() {
         termsDiv.style.left = x + "px";
         termsDiv.style.top = y + "px";
         if (!termsDiv.innerHTML) {
-            termsDiv.innerHTML = "<a style='color:gray; font-size:10px; font-family:arial' target='_blank' href='http://www.microsoft.com/maps/product/terms.html' title='Terms of Use'>Terms of Use</a>";
+            termsDiv.innerHTML = "<a style='color:gray; font-size:10px; font-family:arial' target='_blank' href='https://www.microsoft.com/maps/product/terms.html' title='Terms of Use'>Terms of Use</a>";
         }
     }
 };
