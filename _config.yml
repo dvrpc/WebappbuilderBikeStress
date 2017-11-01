@@ -1,1 +1,1 @@
-exclude: [.jshintignore, .jshintrc]
+exclude: [".jshintignore", ".jshintrc"]
