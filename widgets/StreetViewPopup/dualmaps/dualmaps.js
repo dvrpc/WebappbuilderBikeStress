@@ -231,7 +231,7 @@ DM5.prototype.cC = function() {
         if (aa.length == 1) {
             this.ag = aa;
             var cH = parseInt(aa);
-            var am = "http://maps.google.com/mapfiles/ms/micons/";
+            var am = "https://maps.google.com/mapfiles/ms/micons/";
             switch (cH) {
                 case 2:
                     am += "green-dot.png";
@@ -252,7 +252,7 @@ DM5.prototype.cC = function() {
         }
     }
     if (!this.K) {
-        this.K = "http://maps.google.com/mapfiles/ms/micons/red-dot.png";
+        this.K = "https://maps.google.com/mapfiles/ms/micons/red-dot.png";
     }
     var cu = g["pt"];
     if (cu) {
@@ -944,7 +944,7 @@ DM5.prototype.bF = function() {
             var v = pan.getPov();
             var r = "";
             if (pt && v && pan.getVisible()) {
-                r = "<table cellpadding=0 cellspacing=0><tr valign=top><td style='width:60px' align=center>" + "<div style='cursor:pointer' onclick='streetviewClick()'><img src='http://maps.gstatic.com/mapfiles/cb/man_arrow-0.png' alt='' /></div>" + "</td><td>";
+                r = "<table cellpadding=0 cellspacing=0><tr valign=top><td style='width:60px' align=center>" + "<div style='cursor:pointer' onclick='streetviewClick()'><img src='https://maps.gstatic.com/mapfiles/cb/man_arrow-0.png' alt='' /></div>" + "</td><td>";
                 r += "<table cellspacing=0 cellpadding=0>" + "<tr><td style='color:gray; width:80px'>lat:</td><td>" + formatFloat(pt.lat(), 6) + "&deg;</td></tr>" + "<tr><td style='color:gray'>lng:</td><td>" + formatFloat(pt.lng(), 6) + "&deg;</td></tr>" + "<tr><td style='color:gray'>heading:</td><td>" + formatFloat(v.heading, 2) + "&deg;</td></tr>" + "<tr><td style='color:gray'>pitch:</td><td>" + formatFloat(v.pitch, 2) + "&deg;</td></tr>" + "<tr><td style='color:gray'>zoom:</td><td>" + formatFloat(pan.getZoom(), 2) + "</td></tr>";
                 var bs = null;
                 if (this.D) {
