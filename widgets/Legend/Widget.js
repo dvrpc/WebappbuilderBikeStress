@@ -46,17 +46,15 @@ _WidgetsInTemplateMixin, BaseWidget, LayerInfos, Legend) {
       var panel = this.getPanel();
         panel.position.width = 300;
         panel.position.height = 300;
-        panel.position.left = 1000;
-        panel.position.top = 500;
-        panel.position.right = 0;
+        panel.position.left = 75;
+        panel.position.top = 80;
         panel._originalBox = {
           w: panel.position.width,
           h: panel.position.height,
           l: panel.position.left,
           t: panel.position.top,
-          r: panel.position.right
         };
-        panel.setPosition(panel.position);
+        panel._setPositionStyle(panel.position);
         panel.panelManager.normalizePanel(panel);
       // END DVPRC CHANGES
 

@@ -124,7 +124,8 @@
         },
         "closeable": true,
         "id": "widgets_AttributeTable_Widget_27",
-        "placeholderIndex": 1
+        "placeholderIndex": 1,
+        "openAtStart": true
       },
       {
         "uri": "widgets/Coordinate/Widget",
@@ -175,7 +176,6 @@
         "version": "2.6",
         "closeable": true,
         "uri": "widgets/Filter/Widget",
-        "openAtStart": false,
         "config": "configs/Filter/config_DRAFT Philadelphia LTS 3 Connections Filter.json"
       },
       {
@@ -249,7 +249,50 @@
       "bottom": 0
     },
     "itemId": "86fd4ebfaddd4c4999c129b481720498",
-    "mapOptions": {},
+    "mapOptions": {
+      "lods": [
+        {
+          "level": 0,
+          "scale": 1155581.108577,
+          "resolution": 305.74811314055756
+        },
+        {
+          "level": 1,
+          "scale": 577790.554289,
+          "resolution": 152.87405657041106
+        },
+        {
+          "level": 2,
+          "scale": 288895.277144,
+          "resolution": 76.43702828507324
+        },
+        {
+          "level": 3,
+          "scale": 144447.638572,
+          "resolution": 38.21851414253662
+        },
+        {
+          "level": 4,
+          "scale": 72223.819286,
+          "resolution": 19.10925707126831
+        },
+        {
+          "level": 5,
+          "scale": 36111.909643,
+          "resolution": 9.554628535634155
+        },
+        {
+          "level": 6,
+          "scale": 18055.954822,
+          "resolution": 4.77731426794937
+        },
+        {
+          "level": 7,
+          "scale": 9027.977411,
+          "resolution": 2.388657133974685
+        }
+      ]
+    },
     "id": "map",
     "portalUrl": "https://dvrpcgis.maps.arcgis.com"
   },
@@ -295,21 +338,12 @@
         "id": "widgets_About_Widget_40"
       },
       {
-        "name": "Legend",
-        "version": "2.6",
-        "uri": "widgets/Legend/Widget",
-        "config": "configs/Legend/config_Legend.json",
-        "index": 6,
-        "id": "widgets_Legend_Widget_41",
-        "openAtStart": true
-      },
-      {
         "name": "StreetViewPopup",
         "label": "Street View",
         "version": "1.1.0.1",
         "uri": "widgets/StreetViewPopup/Widget",
         "config": "configs/StreetViewPopup/config_Street View.json",
-        "index": 7,
+        "index": 6,
         "id": "widgets_StreetViewPopup_Widget_42"
       },
       {
@@ -318,8 +352,17 @@
         "version": "2.6",
         "uri": "widgets/BasemapGallery/Widget",
         "config": "configs/BasemapGallery/config_Basemap.json",
-        "index": 9,
+        "index": 7,
         "id": "widgets_BasemapGallery_Widget_43"
+      },
+      {
+        "name": "Legend",
+        "version": "2.6",
+        "uri": "widgets/Legend/Widget",
+        "config": "configs/Legend/config_Legend.json",
+        "index": 9,
+        "id": "widgets_Legend_Widget_44",
+        "openAtStart": true
       }
     ],
     "groups": []
