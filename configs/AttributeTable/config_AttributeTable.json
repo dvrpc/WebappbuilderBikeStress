@@ -763,8 +763,13 @@
             "alias": "Total Number of Lanes"
           },
           {
-            "show": true,
+            "show": false,
             "name": "BIKE_FAC_1",
+            "alias": "Bicycle Facility"
+          },
+          {
+            "show": true,
+            "name": "BIKE_FAC",
             "alias": "Bicycle Facility"
           },
           {
@@ -812,7 +817,7 @@
       "showAttachments": false
     },
     {
-      "name": "PennDOT Paved Shoulders",
+      "name": "Paved Shoulders on PennDOT Roads",
       "id": "BSTRESS_PavedShoulders_7350_0",
       "layer": {
         "url": "https://arcgis.dvrpc.org/arcgis/rest/services/AppData/BSTRESS_PavedShoulders/MapServer/0",
