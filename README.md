@@ -17,5 +17,3 @@ DVRPC will continue to refine this approach and our tools - if you have any idea
 ## Branches
 
 GH-Pages default "Master" branch
-
-[Dropwizard](http://www.dropwizard.io/1.0.2/docs/)
